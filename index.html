@@ -1,12 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<title>Page Title</title>
 </head>
 <body>
-    
+
+<h1>Datos del usuario</h1>
+<form>
+Nombre:<br/>
+  <input type="text" 
+maxlength="20" 
+size="20" 
+name="nombre"/><br/>
+Apellidos:<br/>
+<input type="text" 
+maxlength="20" 
+size="20" 
+name="apellidos"/><br/>
+
+
+Edad<br/>
+<input type="text" 
+maxlength="3" 
+size="3" 
+name="edad"/><br/>
+
+ Sexo:<br/>
+ <input type="radio" name="sexo" value="male"/>Male<br/>
+ <input type="radio" name="sexo" value="female"/>Female <br/>
+ 
+ Titulacion:
+ <select name="aficiones">
+ <option value="uno">Software</option>
+ <option value="dos">Informatica</option>
+ <option value="tres" selected>Computadores</option>
+ <option value="cuatro">Salud</option>
+ </select>
+ <br/>
+ 
+ Aficiones:<br/>
+ <input type="checkbox" name="aficiones" value="Bike"/>
+ Deporte<br/>
+ <input type="checkbox" name="aficiones" value="Car"/>
+ Lectura<br/>
+ <input type="checkbox" name="aficiones" value="Car"/>
+ Series y peliculas <br/>
+ <input type="checkbox" name="vehicle" value="Car"/>
+ Videojuegos<br/>
+ 
+ Breve CV:<br/>
+ <textarea name=“cv” rows="10" cols="30">
+</textarea>
+  
+</form>
+
 </body>
 </html>
